@@ -4,15 +4,15 @@ on:
   workflow_dispatch:
     inputs:
       ROM_URL:
-        description: 'Direct link/直链'
+        description: 'Direct link/download.meizu.com/Firmware/Flyme/t0743/10.0.0.2/cn/20240802140350/2b2106c5/update.zip'
         required: true
         default: 'https://mirrorbits.lineageos.org/full/sagit/20230302/lineage-20.0-20230302-nightly-sagit-signed.zip'
       REPACK_NAME:
-        description: 'Compressed name/打包名称'
+        description: 'Compressed name/co pad GSI'
         required: true
         default: 'Compressed.7z'
       ROM_TYPE:
-        description: 'ROM type/ROM 类型'
+        description: 'ROM type/ROM Flyme'
         required: true
         default: 'Generic'
 env:
